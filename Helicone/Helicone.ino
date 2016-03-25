@@ -28,36 +28,46 @@ void loop() {
   
   dir(1);
   spd(1);
-  delay(10000);
+  delay(1200000);
   
   //Begin transition to Pinecone
   spd(2);
   delay(5000);
-  spd(5);
+  spd(6);
   delay(8000);
+  spd(4);
+  delay(3000);
+  //spd(3);
+  //delay(1000);
   spd(2);
-  delay(4000);
+  delay(3500);
   spd(1);
-  delay(3000);
+  delay(2000);
   spd(0);
-  delay(3000);
+  delay(1000);
   
   //In Pinecone
   
   dir(2);
+  //spd(2);
+  //delay(700);
   spd(1);
-  delay(10000);
+  delay(1200000);
   
   //Begin transition to Helix
   
   spd(2);
   delay(5000);
-  spd(5);
+  spd(6);
   delay(8000);
-  spd(2);
+  spd(4);
   delay(3000);
+  //spd(3);
+  //delay(2000);
+  spd(2);
+  delay(4000);
   spd(0);
-  delay(8500);
+  delay(4000);
 
 }
 
